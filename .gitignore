@@ -1,0 +1,32 @@
+# vim
+*.swp
+
+# eclipse
+.cache
+.settings/
+.project
+.classpath
+
+# idea
+.idea
+.idea_modules
+
+# scala
+target/
+dist/
+*.class
+
+# Play!
+RUNNING_PID
+*.log
+logs/
+
+.history
+sbt-native-packager.jar
+package/rpm/packages.txt
+test-helper-logger/project/project/
+test-helper/project/project/
+project/project/
+
+/.target
+/bin
