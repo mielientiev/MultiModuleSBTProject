@@ -3,7 +3,7 @@ AppBuild.moduleSettings("rest_api") ++: Seq(
   routesGenerator := InjectedRoutesGenerator
 )
 
-libraryDependencies ++= AppBuild.commonDependencies ++: Seq(
+libraryDependencies ++= Seq(
   cache,
   ws,
   specs2 % Test

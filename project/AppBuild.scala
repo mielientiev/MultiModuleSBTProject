@@ -38,7 +38,7 @@ object AppBuild extends Build {
       "-Xexperimental" // Add experimental scala feature
     ),
     resolvers += "scalaz-bintray" at "https://dl.bintray.com/scalaz/releases",
-    resolvers := ("Atlassian Releases" at "https://maven.atlassian.com/public/") +: resolvers.value,
+    resolvers += ("Atlassian Releases" at "https://maven.atlassian.com/public/"),
     resolvers += Resolver.sonatypeRepo("snapshots")
   )
 
